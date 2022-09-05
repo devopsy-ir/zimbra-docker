@@ -27,6 +27,12 @@ As you can see we tell the container the ports we want to expose, and on which p
 
 That's it! You can visit now the IP of your Docker Machine using HTTPS, or try the Admin Console with HTTPS and port 7071.
 
+## Docker Compose
+You can run it with docker compose. First of all, copy `env.example` into file `.env`, change it's values such as `PASSWORD` and `HOSTNAME`, and then run:
+```bash
+docker-compose up -d
+```
+
 ## Contribute to the Project
 If you like to contribute to the project, you are free to do so, just fork this repo and submit your changes.
 
